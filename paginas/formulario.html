@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+</head>
+    <body>
+        
+        <li><a href="../index.html">Página Inicial</a></li>
+        <li><a href="./formulario.html">Formulário</a></li>
+        <li><a href="./tabela.html">Tabela</a></li>
+
+        <h1>Usuários</h1>
+
+        <form action=".sql" method="post">
+            <p>Nome: <input type="text" name="nome"/></p>
+
+            Telefone: <input type="text" name="nome"/>
+
+            <p>E-mail: <input type="text" name="nome"/></p>
+
+            <p>Senha: <input type="text" name="nome"/></p>
+
+            <p> Gênero:
+                <input type="radio" name="genero" value="1"/> Masculino
+                <input type="radio" name="genero" value="2"/> Feminino
+            </p>
+
+            <p> UF:
+                <select>
+                    <option value="Selecione">Selecione</option>
+                    <option value="DF">DF</option>
+                    <option value="GO">GO</option>
+                </select>
+            </p>
+
+            Cidade:
+                <select>
+                    <option value="Selecione">Selecione</option>
+                    <option value="Ceilândia">Ceilândia</option>
+                    <option value="Taguatinga">Taguatinga</option>
+                    <option value="Asa Sul">Asa Sul</option>
+                </select>
+            </p>
+        <fieldset>
+            <legend>Hobbies</legend>
+                <input type="checkbox" name="Hobbies"/>
+                Música
+                <br/>
+                <input type="checkbox" name="Hobbies"/>
+                Futebol
+                <br/>
+                <input type="checkbox" name="Hobbies"/>
+                Artes
+                <br/>
+                <input type="checkbox" name="Hobbies"/>
+                Jogos
+                <br/>
+                <input type="checkbox" name="Hobbies"/>
+                Cozinhar
+        </fieldset>
+           
+            <br/>
+        
+            Observação:
+                <textarea rows="6" cols="50"></textarea>
+
+                <p>
+                <input type="submit" value="Salvar">
+                
+                <input type="reset" value="Limpar">
+            
+                <button type="button" onclick="voltar()">Voltar</button>
+                </p>
+            
+                </form>
+        
+    </body>
+</html>
